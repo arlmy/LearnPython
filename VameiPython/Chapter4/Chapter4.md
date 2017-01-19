@@ -21,3 +21,18 @@ help(list.append)
 list 中 append 方法的帮助文档
 
 字符串是特殊的元组
+
+example_iter = iter([1,2])
+example_iter.__next__()
+利用 iter() 和 __next__() 将列表转换为循环对象
+如：
+for item in iter([1,2,3]): （for 结构自动调用 __next__() ）
+	print(item)
+
+生成器 generator 来自定义循环对象
+return 的地方改为 yield，遇到 yield 时暂停生成
+(相当于 alert)
+
+from time import *
+from time import sleep 
+sleep(10) 延迟十秒
