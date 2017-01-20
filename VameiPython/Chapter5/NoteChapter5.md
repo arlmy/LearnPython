@@ -62,3 +62,13 @@ year, month, day, weekday
 %f 毫秒
 
 [datetime 官方文档](https://docs.python.org/3/library/datetime.html#datetime.timedelta)
+
+## 正则表达式（regular expression）
+
+从字符串中通过特定的模式，搜索希望找到的内容。
+
+```import re```
+
+*需要专门学习一下*
+
+## 爬虫
