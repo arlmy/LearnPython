@@ -36,3 +36,16 @@ return 的地方改为 yield，遇到 yield 时暂停生成
 from time import *
 from time import sleep 
 sleep(10) 延迟十秒
+import time as t
+t.sleep(10) 缩短命名
+
+模块包：
+功能相似的模块放在同一个文件夹内，构成模块包，如放在 this_dir 中：
+import this_dir.module
+但文件夹必须包含一个 __init__py 的文件（可以为空），提醒 Python 这个文件夹是模块包
+
+每个模块对象都有一个 __name__ 属性，记录模块的名字
+if __name__ == "__main__":
+    ...
+即：这个文件作为主程序运行，将执行下面的操作
+也可以避免调用一些模块
