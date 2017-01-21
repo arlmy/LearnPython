@@ -1,3 +1,7 @@
+命令行
+
+Ctrl + L 清屏
+
 ## 文件操作
 
 f.open("test.txt","r")
